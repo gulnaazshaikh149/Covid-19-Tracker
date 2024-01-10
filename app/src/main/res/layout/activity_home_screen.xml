@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:foregroundGravity="center"
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/virus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="left"
+            android:textColor="#B22222"
+            android:text="Total Cumulative Count ~ 252,337,780"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="left"
+            android:textColor="#B22222"
+            android:text="Total Cumulative Death ~ 5,092,273"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="left"
+            android:textColor="#B22222"
+            android:text="Total recovered ~ 228,362,421"
+            />
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/button"
+            android:text="Worst hit countries"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#A8CEF3" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:text="Test Yourself"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#A8CEF3" />
+
+        <Button
+            android:id="@+id/detail"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:text="Quarantine Status"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#A8CEF3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/images" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

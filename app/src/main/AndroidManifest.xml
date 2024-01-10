@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid_19_navigator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+    The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/virus"
+        android:label="CoViD-19 Navigator"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CountryData"
+            android:exported="true" />
+        <activity android:name=".MoreTools" />
+        <activity android:name=".HelpMeds" />
+        <activity android:name=".Help" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAulT1n74BB2zKvRyJuggi7go55MQIc-Lk" />
+
+        <activity android:name=".Map" />
+        <activity android:name=".AgrGroup" />
+        <activity android:name=".Quarantine" />
+        <activity android:name=".Res2" />
+        <activity android:name=".Res1" />
+        <activity android:name=".Test5" />
+        <activity android:name=".Test4" />
+        <activity android:name=".Test3" />
+        <activity android:name=".Test2" />
+        <activity android:name=".Test" />
+        <activity android:name=".WorstHit" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

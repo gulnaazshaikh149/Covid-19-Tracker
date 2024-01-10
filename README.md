@@ -1,1 +1,3 @@
-# Covid-19-Tracker
+# Covid Navigator
+
+Helps you to track people with COVID around you.

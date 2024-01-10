@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:layout_marginLeft="5dp"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="#B22222"
+        android:text="To-Do List:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minLines="4"
+        android:text="1. Maintain Self Isolation. \n2. Always sanitize yourself and wear a mask. \n3. Follow doctor's prescription.
+         \n4. Avoid touching your own self and other belongings in your surrounding as well."
+        android:textColor="#F08080"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="#B22222"
+        android:text="Not To-Do List:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minLines="4"
+        android:text="1. Going out in crowded places. \n2. Do not seek alternative treatments or home remedies. \n3. Skipping
+        medication and flu shots.\n4. And most importantly, DON'T PANIC!!!"
+        android:textColor="#F08080"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/button"
+            android:text="Click  here to add your medicines and appointments"
+            android:layout_marginBottom="2dp"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#A8CEF3" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

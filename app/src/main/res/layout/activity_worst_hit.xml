@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bar"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="455dp">
+
+    </com.github.mikephil.charting.charts.BarChart>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="12dp"
+        android:text="New Cases Recorded ~248,708"
+
+        android:textColor="#B22222"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textColor="#B22222"
+            android:text="New Deaths Recorded ~ 4,070"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="131dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:width="125dp"
+            android:background="@drawable/button"
+            android:text="BACK"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#A8CEF3" />
+
+        <Button
+            android:id="@+id/det"
+            android:layout_width="131dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="16dp"
+            android:width="125dp"
+            android:background="@drawable/button"
+            android:text="DETAILS"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#A8CEF3" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
